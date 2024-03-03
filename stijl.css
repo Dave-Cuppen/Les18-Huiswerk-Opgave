@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+    
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        float: left;
+    }
+    .col-1 { width: 8.33%; }
+    .col-2 { width: 16.66%; }
+    .col-3 { width: 25%; }
+    .col-4 { width: 33.33%; }
+    .col-5 { width: 41.66%; }
+    .col-6 { width: 50%; }
+    .col-7 { width: 58.33%; }
+    .col-8 { width: 66.66%; }
+    .col-9 { width: 75%; background-color: lightgrey; }
+    .col-10 { width: 83.33%; }
+    .col-11 { width: 91.66%; }
+    .col-12 { width: 100%; }
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    background-image: url("afbeeldingen/Venlo_01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px black;
+}
+
+section {
+    display: flex;
+}
+
+footer {
+    background-color: #4e8cff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feiten ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: darkgrey;
+}
+
+.feiten li {
+    padding: 8px;
+    color: black;
+}
+
+#tekst-een {
+    padding: 20px;
+    text-align: justify;
+}
+
+#tekst-twee {
+    padding: 20px;
+    text-align: left;
+}
+
+img {
+    float: right;
+    width: 30%;
+    margin: 0 0 40px 20px;
+}
